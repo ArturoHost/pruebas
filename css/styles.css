@@ -94,6 +94,7 @@ body {
 }
 
 .div-note input {
+  width: 100%;
   border: 0px;
   border-radius: 0px;
   background-color: transparent;
@@ -143,12 +144,16 @@ body {
   .div-container {
     width: 350px;
   }
+  
+  .div-check {
+  width: 10%;
+}
 
   .div-note {
     width: 75%;
   }
 
   .div-actions {
-    width: 35%;
+    width: 30%;
   }
 }
