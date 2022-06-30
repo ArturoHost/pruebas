@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="div-main">
+      <div class="div-container">
+        <div class="div-title">
+          <p>
+            Buen día,
+            <input
+              type="text"
+              name="name"
+              id="input-name"
+              placeholder="escribe tu nombre aquí..."
+            />
+          </p>
+        </div>
+        <div class="div-content">
+          <div class="div-add">
+            <form id="form-add">
+              <div>
+                <input type="text" name="note" id="input-note" /><input
+                  type="submit"
+                  id="input-submit"
+                  value="Add note"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="div-list"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./js/script.js"></script>
+</html>

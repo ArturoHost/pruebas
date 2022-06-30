@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.div-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-container {
+  width: 800px;
+  height: 100vh;
+}
+
+.div-title {
+  font-size: 21pt;
+}
+
+#input-name {
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.div-content {
+}
+
+#form-add div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#input-note {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+}
+
+#input-submit {
+  width: 150px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: #ffffff;
+}
+
+/*Estilos de lista*/
+.div-list {
+  width: 100%;
+}
+
+#form-add {
+  width: 100%;
+}
+
+.div-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  background-color: #f4f4f4;
+}
+
+.div-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+
+.div-note {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+
+.div-note input {
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+}
+
+.div-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.div-note,
+.div-check,
+.div-actions {
+  height: 50px;
+}
+
+.done {
+  background-color: greenyellow;
+}
+.done .div-note input {
+  text-decoration-line: line-through;
+}
+
+.button-delete,
+.button-edit {
+  background-color: transparent;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  color: red;
+}
+
+.button-edit:hover {
+  color: dodgerblue;
+}
+
+@media only screen and (max-width: 590px) {
+  .div-container {
+    width: 350px;
+  }
+
+  .div-note {
+    width: 75%;
+  }
+
+  .div-actions {
+    width: 35%;
+  }
+}
