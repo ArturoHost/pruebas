@@ -144,13 +144,13 @@ body {
   .div-container {
     width: 350px;
   }
-  
+
   .div-check {
-  width: 10%;
-}
+    width: 10%;
+  }
 
   .div-note {
-    width: 75%;
+    width: 60%;
   }
 
   .div-actions {

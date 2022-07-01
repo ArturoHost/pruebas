@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   formAdd.addEventListener("submit", (e) => {
     e.preventDefault();
     if (inputNote.value == "") {
-      alert("E you nadafakar, are you madafakar?");
+      alert("El campo está vacío");
     } else {
       const item = {
         note: e.target.elements.note.value,
