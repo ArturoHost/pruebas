@@ -2,8 +2,10 @@ var APP_PREFIX = "ApplicationName_"; // Identifier for this app (this needs to b
 var VERSION = "version_01"; // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
-  // Add URL you want to cache in this list.
-  "/{repository}/", // If you have separate JS/CSS files,
+  // Add URL you want to cache in this list
+  "/{repository}/",
+  "/{repository}/css/styles.css",
+  "/{repository}/js/script.js", // If you have separate JS/CSS files,
   "/{repository}/index.html", // add path to those files here
 ];
 
