@@ -1,5 +1,5 @@
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/pruebas/sw.js", {
-    scope: "/pruebas/",
+  navigator.serviceWorker.register("/{repository}/sw.js", {
+    scope: "/{repository}/",
   });
 }
